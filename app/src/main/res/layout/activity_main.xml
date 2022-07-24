@@ -14,11 +14,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="185dp"
-        android:layout_marginEnd="143dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="148dp"
         android:text="Incrementa" />
 
-    <EditText
+    <TextView
         android:id="@+id/tvContador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -35,12 +35,10 @@
         android:id="@+id/tvResetea"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvIncrementa"
+        android:layout_above="@+id/tvDecrementa"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="27dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginBottom="294dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="25dp"
         android:text="Resetear" />
 
     <Button
@@ -49,8 +47,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="130dp"
-        android:layout_marginBottom="224dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="230dp"
         android:text="Decrementar" />
 
 </RelativeLayout>

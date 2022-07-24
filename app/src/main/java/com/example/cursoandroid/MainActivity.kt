@@ -38,19 +38,23 @@ class MainActivity : AppCompatActivity() {
     fun incrementar() {
         contador++
         println(contador)
+        mostrarResultado()
     }
 
     fun decrementar() {
         contador--
-        println(contador)
+        mostrarResultado()
     }
 
     fun resetear() {
         contador = 0
-        println(contador)
+        mostrarResultado()
     }
 
-    //me falta saber como poner el resultado en el campo de texto
+    fun mostrarResultado (){
+        var txtCampoContador= findViewById<TextView>(R.id.tvContador)
+        txtCampoContador.setText("Contador: $contador")
+    }
 
 }
 
